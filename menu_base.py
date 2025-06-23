@@ -1,4 +1,6 @@
-
+def datos_jhaimar():
+    print("mi nombre es Jhaimar Altuve y tengo 25 años")
+          
 def datos_gretta():
     print("mi nombre es gretta ceballos y tengo 18 años")
     
@@ -24,6 +26,6 @@ while True:
     elif op == "2":
         datos_gretta()  
     elif op == "3":
-        pass # Aquí se llamará a la función del integrante 3
+        datos_jhaimar()
     else:
         print(" Opción inválida.")
